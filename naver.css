@@ -1,0 +1,278 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+li{
+  list-style: none;
+}
+
+.global-header{
+  max-width: 468px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+  width: 300px;
+}
+
+.logo img{
+  width: 150px;
+}
+
+.main-date{
+  max-width: 468px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header-1{
+  height: 50px;
+  width: 300px;
+  position: relative;
+}
+
+#id-text{
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#input-box{
+  width: 300px;
+  height: 35px;
+  border: 1px solid #aaa;
+  
+}
+
+#input-box1{
+  width: 300px;
+  height: 35px;
+  border: 1px solid #aaa;
+}
+
+#input-box1:active{
+  border: 1px solid green;
+  outline: none;
+}
+
+.header-1 div {
+  position: absolute;
+  top: 70%;
+  right: 5px;
+  color: #aaa;
+ 
+}
+
+.header-2{
+  height: 50px;
+  width: 300px;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.header-2 img{
+  width: 20px;
+  position: absolute;
+  top: 80%;
+  right: 5px;
+}
+
+.header-3{
+  height: 50px;
+  width: 300px;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  
+}
+
+.header-3 img{
+  width: 20px;
+  position: absolute;
+  top: 80%;
+  right: 5px;
+}
+
+
+.medium-2 h3{
+  margin-top: 20px;
+}
+
+.birthday-fl{
+  display: flex;
+  height: 50px;
+  width: 300px;
+}
+
+.medium-year input[type="text"],
+.medium-date-text input[type="text"]{
+  padding: 0 0 0 10px;
+}
+
+.medium-year input::placeholder{
+  color: red;
+}
+
+
+.medium-3-t{
+  width: 95px;
+  height: 40px;
+  margin-right: 5px;
+  border: 1px solid #aaa;
+}
+
+.medium-3-{
+  width: 100px;
+  height: 40px;
+  border: 1px solid #aaa;
+}
+
+.medium-year input,
+.medium-date-text input{
+  font-size: 15px;
+  border: 1px solid #aaa;
+}
+
+
+.se-wrapper{
+  display: flex;
+  width: 300px;
+}
+
+.se-wrapper button{
+  width: 95px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: #FFF;
+  border: 1px solid #aaa;
+}
+
+.se-wrapper button:last-child{
+  width: 100px;
+  margin-right: 0;
+}
+
+.medium-re-email{
+  margin-top: 10px;
+}
+
+.medium-re-email span{
+  color: #aaa;
+  font-size: 10px;
+}
+
+#id-text{
+  display: flex;
+  align-items: center;
+}
+
+.email-box input[type="text"] {
+ padding: 0 0 0 10px; 
+ /* margin-left: 10px; */
+}
+
+.phone{
+  margin-top: 10px;
+}
+
+.phone-push{
+  width: 300px;
+  display: flex;
+}
+
+#phone-id{
+  width: 200px;
+  margin: 3px 5px 3px 0;
+  height: 40px;
+  border: 1px solid #AAA; 
+}
+
+.number-box{
+  width: 100px;
+  height: 40px;
+  margin-top: 3px;
+  background-color:  #08a600;
+  color: #FFF;
+  border: none;
+}
+
+.phone-push input[type="text"] {
+  padding: 0 0 0 10px;
+  font-size: 16px;
+}
+
+.ok-number input{
+  background-color: rgb(238, 236, 236);
+}
+
+.ok-number input[type="text"] {
+  padding: 0 0 0 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+#address-t{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.address-wrapper{
+  width: 300px;
+  height: 200px;
+}
+
+.address-number{
+  display: flex;
+}
+
+
+#address-box{width: 300px;
+  height: 35px;
+  border: 1px solid #aaa;
+  margin-top: 3px;
+}
+
+.address-rode input[type="text"],
+.address-last input[type="text"],
+.adress-impor input[type="text"],
+.adress-ch input[type="text"],
+.address-number input[type="text"] {
+  padding: 0 0 0 10px;
+  font-size: 14px;
+}
+
+#address-id{
+  width: 200px;
+  margin: 3px 5px 3px 0;
+  height: 40px;
+  border: 1px solid #AAA; 
+}
+
+
+.button-king{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  background-color:  #3adb32;
+  color: #FFF;
+  border: none;
+  font-weight: 700;
+}
+
+.red-alert{
+  visibility: hidden;
+  padding: 5px 0;
+  font-size: 14px;
+  color: red; 
+}

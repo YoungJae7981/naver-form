@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="Chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>네이버:회원가입</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./naver.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="global-header">
+      <h1 class="logo">
+        <a href="http://www.naver.com">
+          <img src="./images/logo.png" alt=""></a>
+      </h1>
+    </header>
+
+    <section class="main-date">
+
+      <div class="main-header">
+        <div class="header-1">
+          <h3 id="id-text">아이디</h3>
+          <input type="text" id="input-box1" class="alert">
+          <div>@naver.com</div>
+          <p class="red-alert">필수 정보입니다.</p>
+        </div>
+
+        <div class="header-2">
+          <h3 id="id-text">비밀번호</h3>
+           <input type="text" id="input-box"  class="alert1">
+           <p class="red-alert">필수 정보입니다.</p>
+          <img src="./images/m_icon_pw_step_01.png" alt="">
+        </div>
+
+        <div class="header-3">
+          <h3 id="id-text">비밀번호 재확인</h3>
+            <input type="text" id="input-box"  class="alert2">
+            <p class="red-alert">필수 정보입니다.</p>
+            <img src="./images/m_icon_pw_step_02.png" alt="">
+        </div>
+      </div>
+
+      <div class="main-medium">
+
+        <div class="medium-1">
+          <h3 id="id-text">이름</h3>
+          <input type="text" id="input-box"  class="alert3">
+           <p class="red-alert">필수 정보입니다.</p>
+        </div>
+
+        <div class="medium-2">
+          <h3 id="id-text">생년월일</h3>
+        </div>
+
+        <div class="birthday-fl">
+          <div class="medium-year">
+            <input type="text" placeholder="년(4자)" class="medium-3-t">
+          </div>
+        
+          <div class="medium-month">
+            <div class="medium-3">
+              <select class="medium-3-t">
+                <option>월</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="medium-date">
+            <div class="medium-date-text">
+              <input type="text" placeholder="일" class="medium-3-">
+            </div>
+          </div>
+        </div>
+
+        <div class="medium-3">
+          <h3 id="id-text">성별</h3>
+          <div class="se-wrapper">
+            <button type="button" class="male">남자</button>
+            <button type="button" class="female">여자</button>
+            <button type="button" class="none">선택안함</button>
+
+          </div>
+        </div>
+
+        <div class="medium-re-email">
+          <h3 id="id-text">본인 확인 이메일 <span>(선택)</span></h3>
+          <div class="email-box">
+            <input type="text" placeholder="선택입력" id="input-box">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="main-bottom">
+
+        <div class="phone">
+          <h3 id="id-text">휴대전화</h3>
+          <div class="bottom-phone">
+            <div class="phone-number">
+              <select id="input-box">
+                <option>대한민국 +82</option>
+                <option>010</option>
+                <option>011</option>
+                <option>016</option>
+                <option>012</option>
+                <option>019</option>
+              </select>
+            </div>
+          </div>
+          <div class="phone-push">
+            <input type="text" placeholder="전화번호 입력" id="phone-id">
+            <button type="button" class="number-box">인증번호 받기</button>
+          </div>
+          <div class="ok-number">
+            <input type="text" placeholder="인증번호 입력하세요" id="input-box">
+          </div>
+        </div>
+
+        <h3 id="address-t">주소</h3>
+        <div class="address-wrapper">
+
+          <div class="address-number">
+            <input type="text" placeholder="우편번호" id="address-id">
+            <button type="button" class="number-box">우편번호 찾기</button>
+          </div>
+
+          <div class="address-rode">
+            <input type="text" placeholder="도로명 주소" id="address-box">
+          </div>
+
+          <div class="address-last">
+            <input type="text" placeholder="지번주소" id="address-box">
+          </div>
+
+          <div class="adress-impor">
+            <input type="text" placeholder="상세주소" id="address-box">
+          </div>
+
+          <div class="adress-ch">
+            <input type="text" placeholder="참고항목" id="address-box">
+          </div>
+
+        </div>
+
+        <form action="../sssss.html" id="">
+          <button type="button" class="button-king">가입하기</button>
+        </form>
+      </div>
+
+    </section>
+  </div>
+  <script src="./JS/script.js"></script>
+</body>
+</html>
