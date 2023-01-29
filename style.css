@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* font-family: 'IBM Plex Sans KR', sans-serif; */
+	font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 a{
@@ -46,7 +46,7 @@ section label{
 
 label p{
 	width: calc(100% - 30px);
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -105,7 +105,7 @@ label input[type="checkbox"] {
 
 .text-primary{
 	color: #08a600;
-	font-size: 14px;
+	font-size: 24px;
 	margin-left: 4px;
 }
 
